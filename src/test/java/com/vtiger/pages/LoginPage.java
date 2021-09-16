@@ -47,6 +47,7 @@ public class LoginPage {
 	
 	public void Login(String userid, String pwd)
 	{
+		System.out.println("Trying login");
 		utils.setInputText(tb_username, userid, "UserName field");
 		utils.setInputText(tb_userpwd, userid, "UserPassword field");
 		utils.ClickElement(btn_login, "Login button");	
